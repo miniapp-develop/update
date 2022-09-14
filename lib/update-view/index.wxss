@@ -1,0 +1,27 @@
+.nothing {
+    text-align: center;
+    padding: 2em 0;
+    color: cadetblue;
+}
+
+.nothing .main {
+    font-size: 3em;
+}
+
+.nothing .meta {
+    font-size: 1.2em;
+}
+
+.fix {
+    margin: 0 1em;
+}
+
+.fix_header {
+    padding: 0.5em 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.fix_consoles {
+    margin: 0 1em;
+}

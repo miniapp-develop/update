@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <button bind:tap="onTap">跳转</button>
+</view>

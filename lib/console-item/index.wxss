@@ -1,0 +1,54 @@
+.console {
+    color: #666;
+    padding: 0.1em 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.loading {
+    height: 12rpx;
+    display: flex;
+    margin-left: 0.5em;
+}
+
+.loading .span {
+    width: 12rpx;
+    height: 100%;
+    margin-right: 5rpx;
+    border-radius: 50%;
+    background: black;
+    -webkit-animation: load 1.04s ease infinite;
+}
+
+.loading .span:last-child {
+    margin-right: 0;
+}
+
+@-webkit-keyframes load {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading .span:nth-child(1) {
+    -webkit-animation-delay: 0.13s;
+}
+
+.loading .span:nth-child(2) {
+    -webkit-animation-delay: 0.26s;
+}
+
+.loading .span:nth-child(3) {
+    -webkit-animation-delay: 0.39s;
+}
+
+.loading .span:nth-child(4) {
+    -webkit-animation-delay: 0.52s;
+}
+
+.loading .span:nth-child(5) {
+    -webkit-animation-delay: 0.65s;
+}

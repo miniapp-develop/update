@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "404",
+  "usingComponents": {
+    "update-view": "/lib/update-view/index"
+  }
+}

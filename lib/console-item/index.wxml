@@ -1,0 +1,10 @@
+<view class="console">
+    <view class="console__item">{{text}}</view>
+    <view wx:if="{{loading}}" class="loading">
+        <view class="span"></view>
+        <view class="span"></view>
+        <view class="span"></view>
+        <view class="span"></view>
+        <view class="span"></view>
+    </view>
+</view>
