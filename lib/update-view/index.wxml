@@ -7,19 +7,19 @@
         <view class="fix_header">正在努力修复中：</view>
         <view class="fix_consoles">
             <view wx:if="{{step >= 1}}">
-                <console-item text="检查版本问题" loading="{{step === 1}}"/>
+                <console-item text="· 检查版本问题" loading="{{step === 1}}"/>
             </view>
             <view wx:if="{{step >= 2}}">
                 <block wx:if="{{hasUpdate}}">
-                    <console-item text="发现一个新版本，努力更新中" loading="{{step === 2}}"/>
+                    <console-item text="· 发现一个新版本，努力更新中" loading="{{step === 2}}"/>
                 </block>
                 <block wx:else>
-                    <console-item text="已经是最新版本!"/>
+                    <console-item text="· 已经是最新版本!"/>
                 </block>
             </view>
             <view wx:if="{{step >= 3}}">
-                <console-item wx:if="{{updateReady}}" text="更新完毕！"/>
-                <console-item wx:else text="更新失败！"/>
+                <console-item wx:if="{{updateReady}}" text="· 更新完毕！"/>
+                <console-item wx:else text="· 更新失败！"/>
             </view>
             <console-item wx:if="{{giveup}}" text="无法修复，躺平了。你可以选择从小程序列表中移除“{{name}}”，然后搜索“{{name}}”重新打开~"/>
         </view>
