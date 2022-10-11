@@ -1,7 +1,7 @@
 {
   "name": "@mini-dev/update",
   "version": "0.0.1",
-  "description": "",
+  "description": "update when page not found",
   "miniprogram": "lib",
   "main": "lib/index.js",
   "directories": {

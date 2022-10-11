@@ -4,6 +4,7 @@
   "setting": {
     "compileHotReLoad": false
   },
+  "libVersion": "2.6.6",
   "condition": {
     "miniprogram": {
       "list": [
@@ -16,6 +17,5 @@
         }
       ]
     }
-  },
-  "libVersion": "2.6.6"
+  }
 }
