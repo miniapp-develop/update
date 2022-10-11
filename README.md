@@ -17,7 +17,7 @@ index.json
 {
   "navigationBarTitleText": "404",
   "usingComponents": {
-    "update-view": "@mini-dev/update/update-view/index"
+    "update-view": "@mini-dev/update/update-view"
   }
 }
 ```
