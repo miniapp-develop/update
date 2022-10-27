@@ -40,11 +40,35 @@ App({
 
 ```
 
-如果不像使用默认的兜底页面，可以在初始化的时候配置：
-
+如果不想使用默认的兜底页面，可以在初始化的时候配置：
 
 ```javascript
 const update = require('@mini-dev/update');
 
 update.init({page:'/pages/xxx/yyy/zzz'});
 ```
+
+如果部分页面有其他的替代页面，则可以在兜底之前拦截：
+
+```javascript
+update.init({
+    interceptors: [
+        function (page) {
+            if (page.path === 'pages/index/index3') {
+                console.log('拦截并跳转到首页，不会打开兜底页面');
+                wx.redirectTo({
+                    url: '/pages/index/index'
+                });
+                return true; //返回值表示拦截成功
+            }
+        }
+    ]
+});
+```
+
+
+
+### ChangeLogs
+
+#### 0.0.2
+1. 增加了前置拦截
