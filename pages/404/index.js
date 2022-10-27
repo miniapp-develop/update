@@ -1,5 +1,6 @@
 Page({
     data: {},
-    onLoad(options) {
+    onLoad(query) {
+        console.log('404', query);
     }
 });

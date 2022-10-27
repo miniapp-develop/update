@@ -9,8 +9,15 @@
     "miniprogram": {
       "list": [
         {
-          "name": "不存在",
+          "name": "不存在-无拦截",
           "pathName": "pages/index/index2",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "不存在-有拦截",
+          "pathName": "pages/index/index3",
           "query": "",
           "launchMode": "default",
           "scene": null
