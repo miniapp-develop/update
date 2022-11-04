@@ -18,7 +18,7 @@ update.init({
 });
 
 App({
-    $__appName__: '这里是App.$__appName__',
+    $__name__: '这里是App.$__name__',
     $__homepage__: '/pages/index/index',
     onLaunch(options) {
     }

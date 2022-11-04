@@ -71,12 +71,12 @@ update.init({
 
 update-view 组件内支持两个自定义属性：
 
-1. name，默认值为 app.$__appName__；
+1. name，默认值为 app.$__name__；
 2. homepage，默认值为 app.$__homepage__；
 
 ```javascript
 App({
-    $__appName__: '这里是App.$__appName__',
+    $__name__: '这里是App.$__name__',
     $__homepage__: '/pages/index/index'
 });
 ```
