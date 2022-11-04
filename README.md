@@ -71,8 +71,8 @@ update.init({
 
 update-view 组件内支持两个自定义属性：
 
-1. name，默认值为 app.$__name__；
-2. homepage，默认值为 app.$__homepage__；
+1. name，默认值为 app.$\_\_name__；
+2. homepage，默认值为 app.$\_\_homepage__；
 
 ```javascript
 App({
