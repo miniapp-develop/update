@@ -1,1 +1,11 @@
-<update-view name="这里是小程序名称"/>
+<view class="section-title">默认配置示例</view>
+<update-view/>
+
+<view class="section-title">自定义跳转到首页地址</view>
+<update-view homepage="/pages/index/index?from=page"/>
+
+<view class="section-title">隐藏跳转到首页按钮</view>
+<update-view homepage=""/>
+
+<view class="section-title">自定义名称和跳转到首页地址</view>
+<update-view name="这里是页面内的自定义名称" homepage="/pages/index/index?from=page"/>

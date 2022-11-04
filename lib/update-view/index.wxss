@@ -1,7 +1,7 @@
 .nothing {
     text-align: center;
     padding: 2em 0;
-    color: cadetblue;
+    color: #1AAD19;
 }
 
 .nothing .main {
@@ -24,4 +24,8 @@
 
 .fix_consoles {
     margin: 0 1em;
+}
+
+.action-home {
+    margin: 1em 0 2em;
 }

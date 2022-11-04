@@ -1,0 +1,4 @@
+.section-title {
+    color: #999;
+    padding: 3em 1em 1em 1em;
+}
