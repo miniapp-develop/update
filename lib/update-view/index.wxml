@@ -18,16 +18,17 @@
                 </block>
             </view>
             <view wx:if="{{step >= 3}}">
-                <console-item wx:if="{{updateReady}}" text="· 更新完毕！"/>
+                <console-item wx:if="{{updateReady}}" text="· 准备完毕！请重启“{{name}}”小程序~"/>
                 <console-item wx:else text="· 更新失败！"/>
             </view>
             <view wx:if="{{giveup}}">
-                <console-item text="无法修复，躺平了。你可以选择从小程序列表中移除“{{name}}”，然后搜索“{{name}}”重新打开~"/>
-                <button wx:if="{{homepage.length > 0}}"
-                        type="primary"
-                        class="action-home"
-                        bind:tap="onTapHome">回到首页
-                </button>
+                <console-item text="· 无法修复，躺平了。"/>
+                <view class="action-home">
+                    <button wx:if="{{homepage.length > 0}}"
+                            type="primary"
+                            bind:tap="onTapHome">回到首页
+                    </button>
+                </view>
             </view>
         </view>
     </view>
